@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="@color/azul"
+                android:endColor="@color/azul_claro"
+                android:gradientRadius="50%p"
+                android:type="radial"
+                android:centerX="0.5"
+                android:centerY="0.5"/>
+            <stroke
+                android:width="2dp"
+                android:color="@color/azul"/>
+            <size
+                android:width="128dp"
+                android:height="128dp"/>
+            <padding
+                android:top="@dimen/border_btn_8dp"
+                android:bottom="@dimen/border_btn_8dp"
+                android:left="@dimen/border_btn_8dp"
+                android:right="@dimen/border_btn_8dp"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="@color/azul"
+                android:endColor="@color/azul_claro"
+                android:gradientRadius="80%p"
+                android:type="radial"
+                android:centerX="0.5"
+                android:centerY="0.5"/>
+            <stroke
+                android:width="2dp"
+                android:color="@color/white"/>
+            <size
+                android:width="128dp"
+                android:height="128dp"/>
+            <padding
+                android:top="@dimen/border_btn_8dp"
+                android:bottom="@dimen/border_btn_8dp"
+                android:left="@dimen/border_btn_8dp"
+                android:right="@dimen/border_btn_8dp"/>
+        </shape>
+    </item>
+</selector>

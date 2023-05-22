@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="border_btn_8dp">8dp</dimen>
+    <dimen name="right_corners_textview">90dp</dimen>
+</resources>
